@@ -1,0 +1,12 @@
+---
+title: "Learning soft constrained MPC value functions: Efficient MPC design and implementation providing stability and safety guarantees"
+collection: publications
+permalink: /publication/2024-ApproxMPC
+excerpt: 'Model Predictive Control (MPC) can be applied to safety-critical control problems, providing closed-loop safety and performance guarantees. Application of MPC requires solving an optimization problem at every sampling instant, making it challenging to implement on embedded hardware. To address this challenge, we propose a framework that combines a tightened soft constrained MPC formulation with a supervised learning framework to approximate the MPC value function. This combination enables us to obtain a corresponding optimal control law, which can be implemented efficiently on embedded platforms. The proposed framework ensures stability and constraint satisfaction for various nonlinear systems. While the design effort is similar to the design of nominal MPC formulations, we can establish input-to-state stability (ISS) with respect to the approximation error of the value function. Moreover, we prove that, while the optimal control law may be discontinuous, the value function corresponding to the soft constrained MPC problem is Lipschitz continuous for Lipschitz continuous systems. This serves two purposes: First, it allows to relate approximation errors to a sufficiently large constraint tightening to obtain constraint satisfaction guarantees. Secondly, it enables a very efficient supervised learning procedure for obtaining the approximation using continuous function approximator classes. We showcase the effectiveness of the method through a nonlinear numerical example.'
+date: 2024-07-15
+venue: 'Proceedings of the 6th Annual Learning for Dynamics and Control Conference'
+# slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
+link: 'https://proceedings.mlr.press/v242/chatzikiriakos24a.html'
+# paperurl: 
+citation: 'Chatzikiriakos, N.*, Wabersich, K.P.*, Berkel, F., Pauli, P. and Iannelli, A. (2024). <i>Proceedings of the 6th Annual Learning for Dynamics and Control Conference</i>, in <i>Proceedings of Machine Learning Research</i> 242:387-398'
+---

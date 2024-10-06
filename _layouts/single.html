@@ -37,8 +37,6 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.venue and page.date %}
-          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date and page.read_time %}
           <p class="page__date">
             <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
@@ -52,13 +50,34 @@ layout: default
         {% if page.citation and page.paperurl %}
           <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
         {% elsif page.citation %}
-          <p>Recommended citation: {{ page.citation }} </p>
+          <p>{{ page.citation }} </p>
         {% endif %}
     
+        {% if page.excerpt and page.collection == 'research' and site.read_more != 'enabled' %}
+          <p class="archive__item-excerpt" itemprop="description">
+            <a href="{{ base_path }}{{ page.url }}" rel="permalink">
+            <div class="container">
+              {{ page.excerpt }}
+              <div class="overlay">
+              </div>
+            </div>
+            </a>
+          </p>
+        {% elsif page.excerpt and site.read_more != 'enabled' %}
+        <p class="archive__item-excerpt" itemprop="description">{{ page.excerpt | markdownify }}</p>
+        {% elsif page.excerpt and site.read_more == 'enabled' %}
+          <p class="archive__item-excerpt" itemprop="description">
+            <p>{{ page.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
+              <strong>
+                <a href="{{ base_path }}{{ page.url }}" rel="permalink"> Read more</a>
+              </strong>
+            </p>
+          </p>
+        {% endif %}
         </header>
-      {% endunless %}
+      {% endunless %}  
 
-      <section class="page__content" itemprop="text">
+    <section class="page__content" itemprop="text">
         {% if page.toc %}
           <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
             <nav class="toc">
@@ -68,7 +87,19 @@ layout: default
           </aside>
         {% endif %}
         {{ content }}
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+        {% if page.link %}
+        <a href="{{ page.link }}"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if page.paperurl %}
+          <a href="{{ page.paperurl }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if page.code %}
+          <a href="{{ page.code }}"><i class="fas fa-fw fa-code zoom" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if page.github %}
+          <a href="{{ page.github }}"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i></a>
+        {% endif %}
+        <!-- {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %} -->
       </section>
 
       <footer class="page__meta">
@@ -78,7 +109,7 @@ layout: default
         {% include page__taxonomy.html %}
       </footer>
 
-      {% if page.share %}{% include social-share.html %}{% endif %}
+      <!-- {% if page.share %}{% include social-share.html %}{% endif %} -->
 
       {% include post_pagination.html %}
     </div>

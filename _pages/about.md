@@ -8,21 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a data scientist applying machine learning tools and causal
-inference techniques to remote sensing data. I am an affiliated
-researcher with the [Data-driven Analysis of Peace Project](https://dapp-lab.org)
-and a research collaborator with the 
-[Research on International Policy Implementation Lab](https://bridgingthegapproject.org/ripil).
+I am a PhD student at the [Insitute for Systems Theory and Automatic Control](https://www.ist.uni-stuttgart.de), University of Stuttgart,
+where I am part of the TASAS group under the supervision of [Andrea Iannelli](https://andreaian.github.io/).
 
-I earned my PhD in Political Science from the
-[University *of* North Carolina *at* Chapel Hill](https://www.unc.edu) and my
-BA in Political Science from [Haverford College](https://www.haverford.edu).
-My academic work has been [published](publications) in the
-*American Political Science Review*, *International Studies Quarterly*,
-*Conflict Management and Peace Science*, and
-*Political Science Research and Methods*, among other outlets. This
-[research](research) explores the causes and consequences of political violence
-using a broad variety of methods such as latent variable models, geospatial
-analysis, and big data. I have [taught](teaching) quantitative methodology and
-international relations, and am a certified instructor with
-[The Carpentries](https://carpentries.org).
+I completed my Bachelor's and Master's degree in Engineering Cybernetics at the University of Stuttgart, focusssing on system theory, control engineering as well as machine learning. 
+Currently, my [research](research) mostly focusses on combining these tools with methods from statistical learning theory to characterize the uncertainty and statistical hardness of data-driven methods for dynamical systems. 
+
+# News
+- [09/2024] Our paper [<i>End-to-end guarantees for indirect data-driven control of bilinear systems with finite stochastic data</i>](publication/2024-bilinear-end-to-end) is now on arXiv.
+- [09/2024] Our paper [<i>Sample Complexity Bounds for Linear System Identification from a Finite Set</i>](publication/2024-bounds-finite-set-ID) is on arXiv.
+- [04/2024] Our paper [<i>Learning Soft Constrained MPC Value Functions: Efficient MPC Design and Implementation providing Stability and Safety Guarantees</i>](publication/2024-ApproxMPC) has been accepted for presentation at the next Learning For Dynamics and Control Conference (L4DC 2024).
+
