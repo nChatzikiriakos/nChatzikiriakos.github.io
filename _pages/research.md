@@ -3,29 +3,16 @@ layout: archive
 title: "Research"
 permalink: /research/
 author_profile: true
-header:
-  og_image: "research/ecdf.png"
 ---
 
+To use data-driven methods for safety critical applications as is often the case in control it is important to account for the uncertainty in the data, which is due to, often probabilistic, noise.
+Hence, in my research my goal is to leverage tools from statistical learning theory, machine learning and control theory in order to understand the fundamental hardness of learning and to provide means for provably safe data-driven application in this scenarios. 
 ### Finite Sample Identification of Dynamical Systems 
-
+Recent advances in statistical learning theory have provided the means to analyze system identification from a non-asymptotic perspective, i.e., when the number of samples is finite. 
+This finite sample analysis has provided novel results for the statistical hardness of learning linear and certain classes of non-linear systems from i.i.d. as well as trajectory data. While these results already tell us much, there are still some shortcomings compared to the asymptotic analysis as well as potentially restrictive assumptions which I seek to reduce trough my research.
 ### Active Learning of Dynamical Systems
-
+The predominant part of the finite sample system identification literature considers the case where the input is chosen i.i.d. (sub-)Gaussian. From a dynamical systems and control engineering perspective it is known that this is often not the optimal choice in terms of the sample complexity. 
+Thus, I seek to identify suitable control inputs for a more sample efficient data collection and aim to develop tools to analyze these active learning scenarios.
 ### Uncertainty Quantification for data-driven control
 A key challenge in providing data-driven control schemes with end-to-end guarantees lies in handling the uncertainty carried by the data. 
 While there exist indirect data-driven control schemes for LTI systems that are equipped with end-to-end guarantees there is still an open gap, especially when it come to considering the interplay between finite sample identification error bounds and a controller that is robust with respect to this error. 
-Further, indirect data-driven control for nonlienar systems 
-
-<!-- One of the key goals is to explore a central challenge in data-driven control: handling the inherent uncertainty in data.
-In this project we want to shed light on a central problem in data-based (control) methods, namely handling the uncertainty the data inherently carries.
-In particular, we consider direct and indirect control methods and analyze to what extent the methods are robust to the uncertainty of the data, i.e., under which conditions on the uncertainty they still produce trustworthy results.
-
-The overarching key queestion this project aims to consider is whether it is better to first map data to models and then apply model-based control design techniques (indirect method) or to map data to controllers (direct method). In particular, we want to take the uncertainty that is due to the used data into account. Robustness with reprect to this uncertainty should be carefully considered, which is why we are interested in the following fundamental questions:  (Q2) When robustness guarantees must be provided, is it less conservative to use an indirect or a direct method? (Q3) When does projecting the data onto a model class reduce the uncertainty compared to using uncompressed data?
-To find answers to these questions it is necessary to quantify the uncertainty pertaining the two approaches.
-For the indirect method, this comes down to characterizing the uncertainty around a model estimate which is obtained via system identification.
-A particular goal is to reduce the conservatism typically associated with the provided uncertainty regions and relax restrictive assumptions which are often still present in literature.
-For the direct method, quantifying uncertainty depends on the considered method. Thus, we will consider concrete examples, e.g. from model-free reinforcement learning.
-The important observation that we want to use is that uncertainty can again be related to the outcome of an identification problem, this time not of the system's model but of other quantities (e.g. the controller itself).
-One of the project's goals will then be to leverage this observation to propose an approach to uncertainty quantification in direct control. -->
-
-This page is still under construction
