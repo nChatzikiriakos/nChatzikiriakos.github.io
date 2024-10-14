@@ -1,15 +1,12 @@
 ---
 permalink: /
 title: "About me"
-excerpt: "I am a PhD student at the Institute for Systems Theory and Automatic Control, University of Stuttgart, under the supervision of Andrea Iannelli."
+excerpt: "I am a PhD student at the [Institute for Systems Theory and Automatic Control](https://www.ist.uni-stuttgart.de), University of Stuttgart, where I am part of the TASAS group under the supervision of [Andrea Iannelli](https://andreaian.github.io/)."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-I am a PhD student at the [Institute for Systems Theory and Automatic Control](https://www.ist.uni-stuttgart.de), University of Stuttgart,
-where I am part of the TASAS group under the supervision of [Andrea Iannelli](https://andreaian.github.io/).
 
 I completed my Bachelor's and Master's degree in Engineering Cybernetics at the University of Stuttgart, focusing on system theory, control engineering as well as machine learning. 
 Currently, my [research](research) mostly focusses on combining these tools with methods from statistical learning theory to characterize the uncertainty and statistical hardness of data-driven methods for dynamical systems. 
