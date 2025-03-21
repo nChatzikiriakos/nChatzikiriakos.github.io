@@ -12,7 +12,7 @@ I completed my Bachelor's and Master's degree in Engineering Cybernetics at the 
 Currently, my [research](research) mostly focuses on combining these tools with methods from statistical learning theory to characterize the uncertainty and statistical hardness of data-driven methods for dynamical systems. 
 
 # News
-- [03/2025] I started a three-month research stay with [<i>Kevin Jamieson</i>](https://homes.cs.washington.edu/~jamieson/index.html) at [<i> Allen School of Computer Science & Engineering, UW](https://www.cs.washington.edu/).
+- [03/2025] I started a three-month research stay with [<i>Kevin Jamieson</i>](https://homes.cs.washington.edu/~jamieson/index.html) at [<i> Allen School of Computer Science & Engineering, UW</i>](https://www.cs.washington.edu/).
 - [02/2025] I will be attending [<i>ACC 2025</i>](https://acc2025.a2c2.org/) in Denver to present our paper [<i>Sample Complexity Bounds for Linear System Identification from a Finite Set</i>](publication/2024-bounds-finite-set-ID).
 - [12/2024] Our paper [<i>Sample Complexity Bounds for Linear System Identification from a Finite Set</i>](publication/2024-bounds-finite-set-ID) has been accepted for publication in the IEEE Control Systems Letters.
 - [09/2024] Our paper [<i>End-to-end guarantees for indirect data-driven control of bilinear systems with finite stochastic data</i>](publication/2024-bilinear-end-to-end) is now on arXiv.
