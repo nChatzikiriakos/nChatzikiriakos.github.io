@@ -6,6 +6,6 @@ excerpt: 'This paper considers a finite sample perspective on the problem of ide
 date: 2025-01-31
 link: 'https://ieeexplore.ieee.org/abstract/document/10787218'
 github: 'https://github.com/col-tasas/2024-bounds-finite-set-ID'
-talk: '/files/pdf/talks/slides_ACC2025.pdf'
+talk: '/files/pdf/research/talks/slides_ACC2025.pdf'
 citation: 'Chatzikiriakos, N. and Iannelli. A. (2024) in <i> IEEE Control Systems Letters</i> (Vol. 8), doi: 10.1109/LCSYS.2024.3514995'
 ---
