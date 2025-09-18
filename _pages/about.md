@@ -13,7 +13,7 @@ Currently, my [research](research) mostly focuses on combining these tools with 
 
 # News
 - [09/2025] I am presenting our recent paper [<i>High Effort, Low Gain: Fundamental Limits of Active Learning for Linear Dynamical Systems</i>](/publication/2025-high-effort-low-gain) at [<i>18th European Workshop on
-Reinforcement Learning (EWRL 2025)</i>]{https://euro-workshop-on-reinforcement-learning.github.io/ewrl18/}.
+Reinforcement Learning (EWRL 2025)</i>](https://euro-workshop-on-reinforcement-learning.github.io/ewrl18/).
 - [09/2025] Our paper [<i>Hidden Convexity in Active Learning: A Convexified Online Input Design for ARX Systems</i>](/publication/2025-hidden-convexity-active-learning) has been accepted for presentation at [<i>CDC 2025</i>](https://cdc2025.ieeecss.org/).
 - [03/2025] I started a three-month research stay with [<i>Kevin Jamieson</i>](https://homes.cs.washington.edu/~jamieson/index.html) at [<i> Allen School of Computer Science & Engineering, UW</i>](https://www.cs.washington.edu/).
 - [02/2025] I will be attending [<i>ACC 2025</i>](https://acc2025.a2c2.org/) in Denver to present our paper [<i>Sample Complexity Bounds for Linear System Identification from a Finite Set</i>](publication/2024-bounds-finite-set-ID).
