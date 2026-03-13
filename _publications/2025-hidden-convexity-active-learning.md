@@ -6,6 +6,6 @@ excerpt: 'The goal of this work is to accelerate the identification of an unknow
 date: 2025-09-10
 link: 'https://ieeexplore.ieee.org/abstract/document/11312601/' 
 github: 'https://github.com/col-tasas/2025-hidden-convexity-active-learning'
-talk: '/files/pdf/research/talks/slides_CDC2025_HiddenConvexity.pdf'
-citation: 'N. Chatzikiriakos, B. Song, P. Rank and A. Iannelli (2025) <i> IEEE 64th Conference on Decision and Control (CDC) <\i>, doi: 10.1109/CDC57313.2025.11312601.'
+talk: '/files/pdf/research/talks/slides_CDC_2025_HiddenConvexity.pdf'
+citation: 'N. Chatzikiriakos, B. Song, P. Rank and A. Iannelli (2025) <i> IEEE 64th Conference on Decision and Control (CDC)<\i>, doi: 10.1109/CDC57313.2025.11312601.'
 ---
