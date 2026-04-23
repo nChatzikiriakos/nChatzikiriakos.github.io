@@ -13,7 +13,7 @@ Currently, my [research](research) mostly focuses on combining these tools with 
 
 # News
 - [03/2026] Our paper [<i>End-to-end guarantees for indirect data-driven control of bilinear systems with finite stochastic data</i>](publication/2024-bilinear-end-to-end) has been accepted for publication in [<i>Automatica</i>](https://www.sciencedirect.com/science/article/pii/S0005109826000920).
-- [01/2025] Our paper [<i>High Effort, Low Gain: Fundamental Limits of Active Learning for Linear Dynamical Systems</i>](/publication/2025-high-effort-low-gain) was accepted for spotlight presentation (2.5%) at [<i>AISTATS</i>](https://virtual.aistats.org/Conferences/2026)
+- [01/2026] Our paper [<i>High Effort, Low Gain: Fundamental Limits of Active Learning for Linear Dynamical Systems</i>](/publication/2025-high-effort-low-gain) was accepted for spotlight presentation (2.5%) at [<i>AISTATS</i>](https://virtual.aistats.org/Conferences/2026)
 - [12/2025] I am attending [<i>CDC 2025</i>](https://cdc2025.ieeecss.org/) to present our recent paper [<i>Hidden Convexity in Active Learning: A Convexified Online Input Design for ARX Systems</i>](/publication/2025-hidden-convexity-active-learning).
 - [09/2025] I am presenting our recent paper [<i>High Effort, Low Gain: Fundamental Limits of Active Learning for Linear Dynamical Systems</i>](/publication/2025-high-effort-low-gain) at [<i>18th European Workshop on
 Reinforcement Learning (EWRL 2025)</i>](https://euro-workshop-on-reinforcement-learning.github.io/ewrl18/).
