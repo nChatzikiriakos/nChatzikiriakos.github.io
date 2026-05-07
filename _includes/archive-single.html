@@ -61,21 +61,35 @@
         {{ post.citation }}
       {% endif %}
       <br>
-      {% if post.link %}
-        <a href="{{ post.link }}"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
-      {% endif %}
-      <!-- {% if post.paperurl %}
-        <a href="{{ post.paperurl }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i></a>
-      {% endif %}
-      {% if post.code %}
-        <a href="{{ post.code }}"><i class="fas fa-fw fa-code zoom" aria-hidden="true"></i></a>
-      {% endif %} -->
-      {% if post.github %}
-        <a href="{{ post.github }}"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i></a>
-      {% endif %}
-      {% if post.talk %}
-        <a href="{{ post.talk }}"><i class="fas fa-fw fa-comments zoom" aria-hidden="true"></i></a>
-      {% endif %}
+              {% if post.link %}
+        <a href="{{ post.link }}" title="Paper">
+          <i class="fas fa-link zoom" aria-hidden="true"></i>
+        </a>
+        {% endif %}
+
+        {% if post.code %}
+          <a href="{{ post.code }}" title="Code">
+            <i class="fas fa-code zoom" aria-hidden="true"></i>
+          </a>
+        {% endif %}
+
+        {% if post.github %}
+          <a href="{{ post.github }}" title="GitHub Repository">
+            <i class="fab fa-github zoom" aria-hidden="true"></i>
+          </a>
+        {% endif %}
+
+        {% if post.talk %}
+          <a href="{{ post.talk }}" title="Talk">
+            <i class="fas fa-comments zoom" aria-hidden="true"></i>
+          </a>
+        {% endif %}
+
+        {% if post.poster %}
+          <a href="{{ post.poster }}" title="Poster">
+            <i class="fas fa-image zoom" aria-hidden="true"></i>
+          </a>
+        {% endif %}
       </p>
     {% elsif post.collection == 'posts' and post.date %}
       <p class="page__date"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
