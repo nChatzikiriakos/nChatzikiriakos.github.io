@@ -6,5 +6,7 @@ excerpt: 'In this work, we consider the problem of identifying an unknown linear
 date: 2025-09-15
 link: 'https://www.arxiv.org/abs/2509.11907' 
 github: 'https://github.com/col-tasas/2025-high-effort-low-gain'
+talk: '/files/pdf/research/talks/slides_AISTATS_high_effort_low_gain.pdf'
+poster: '/files/pdf/research/talks/poster_AISTATS_high_effort_low_gain.pdf'
 citation: 'Chatzikiriakos, N., Jamieson, K., Iannelli, A. (2025) <i> arXiv preprint arXiv:</i> 2509.11907'
 ---
